@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://sales-manager-pro-2.onrender.com/api/$1"
+    }
+  ]
+}
