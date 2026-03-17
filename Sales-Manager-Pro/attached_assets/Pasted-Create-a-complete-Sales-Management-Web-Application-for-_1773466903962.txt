@@ -1,0 +1,353 @@
+Create a complete **Sales Management Web Application** for a retail store. The application should be professional, modern, responsive, and production-ready.
+
+Tech Stack Requirements:
+
+Frontend:
+
+* React.js
+* Tailwind CSS
+* Redux Toolkit
+* Responsive and modern UI design
+
+Backend:
+
+* Node.js
+* Express.js
+* PostgreSQL database
+
+Authentication:
+
+* Secure login system
+* Role-based authentication (Admin and Salesman)
+
+---
+
+Application Purpose:
+
+The system will help a store owner manage:
+
+* Product inventory
+* Daily sales
+* Customers
+* Expenses
+* Business reports
+
+When a product is sold, the system must automatically reduce the product stock and store the sale record.
+
+---
+
+User Roles:
+
+1. Admin (Store Owner / Manager)
+
+Admin Permissions:
+
+* Add, edit, delete products
+* Manage inventory
+* View sales reports
+* Manage users (sales staff)
+* View all orders
+* Manage store settings
+* Track expenses
+
+2. Salesman / Staff
+
+Salesman Permissions:
+
+* Create sales orders
+* Add customers
+* Search products
+* Print receipt
+* View sales history
+
+---
+
+Pages and Features:
+
+1. Login Page
+
+* Email and password login
+* Role-based authentication
+* Redirect to dashboard after login
+
+---
+
+2. Dashboard Page
+
+Display key business statistics:
+
+* Today's Sales
+* Total Orders
+* Total Products
+* Total Customers
+* Low Stock Alerts
+* Sales Analytics Chart (daily/monthly)
+
+---
+
+3. Product Management Page
+
+Admin can manage products.
+
+Fields:
+
+* Product Name
+* Category
+* Price
+* Purchase Price
+* Stock Quantity
+* Barcode
+* Product Image
+
+Features:
+
+* Add Product
+* Edit Product
+* Delete Product
+* Update Stock
+
+---
+
+4. Sales / POS Page
+
+Main page for creating sales.
+
+Features:
+
+* Product search
+* Barcode scanning support
+* Add product to cart
+* Quantity selector
+* Automatic price calculation
+* Order summary
+* Complete sale button
+* Print receipt option
+
+When sale completes:
+
+* Save order in database
+* Reduce product stock automatically
+
+---
+
+5. Customers Page
+
+Manage customer records.
+
+Fields:
+
+* Customer Name
+* Phone Number
+* Email
+* Address
+* Total Purchases
+
+Features:
+
+* Add customer
+* Edit customer
+* Customer purchase history
+
+---
+
+6. Orders / Sales History Page
+
+Display previous sales.
+
+Table columns:
+
+* Order ID
+* Customer
+* Products
+* Total Price
+* Payment Method
+* Date
+
+Actions:
+
+* View order details
+* Print invoice
+* Refund option
+
+---
+
+7. Inventory / Stock Page
+
+Show stock status.
+
+Features:
+
+* Current stock for each product
+* Low stock alerts
+* Quick stock update
+
+---
+
+8. Reports Page
+
+Generate business reports.
+
+Reports:
+
+* Daily Sales
+* Monthly Sales
+* Top Selling Products
+* Profit Report
+
+Use charts for visualization:
+
+* Bar charts
+* Line charts
+
+---
+
+9. Expenses Page
+
+Track store expenses.
+
+Fields:
+
+* Expense Title
+* Amount
+* Date
+
+Examples:
+
+* Rent
+* Electricity
+* Salaries
+* Internet
+
+System should calculate profit:
+
+Profit = Total Sales - Expenses
+
+---
+
+10. Settings Page
+
+Admin can configure:
+
+* Store name
+* Currency
+* Tax percentage
+* Invoice format
+* User management
+
+---
+
+Database Structure (PostgreSQL)
+
+Tables:
+
+Users
+
+* id
+* name
+* email
+* password
+* role
+
+Products
+
+* id
+* name
+* category
+* price
+* purchase_price
+* stock
+* barcode
+* image
+
+Customers
+
+* id
+* name
+* phone
+* email
+* address
+
+Orders
+
+* id
+* customer_id
+* total_price
+* payment_method
+* date
+
+Order_Items
+
+* id
+* order_id
+* product_id
+* quantity
+* price
+
+Expenses
+
+* id
+* title
+* amount
+* date
+
+---
+
+UI Layout:
+
+Sidebar Navigation:
+
+Dashboard
+Products
+Sales (POS)
+Customers
+Orders
+Inventory
+Reports
+Expenses
+Settings
+
+Top Navbar:
+
+* Profile
+* Notifications
+* Logout
+
+Main Content Area:
+
+* Dynamic page content
+
+---
+
+Extra Professional Features:
+
+* Barcode scanner support
+* PDF invoice generation
+* Dark mode
+* Excel export
+* WhatsApp receipt sharing
+* Responsive design for mobile and desktop
+* Clean modern dashboard UI
+* Animations and smooth transitions
+
+---
+
+Project Structure:
+
+Frontend:
+
+* components
+* pages
+* redux
+* services
+* layouts
+
+Backend:
+
+* routes
+* controllers
+* models
+* middleware
+
+---
+
+The final result should be a fully functional, modern Sales Management System similar to a POS system used in retail stores.

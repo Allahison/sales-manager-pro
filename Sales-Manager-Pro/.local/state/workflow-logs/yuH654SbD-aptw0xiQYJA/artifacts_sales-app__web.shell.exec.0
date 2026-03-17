@@ -1,0 +1,590 @@
+
+> @workspace/sales-app@0.0.0 dev /home/runner/workspace/artifacts/sales-app
+> vite --config vite.config.ts --host 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m362[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m25207[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.81.66:[1m25207[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:47:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:47:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:48:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/login.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:48:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/hooks/use-auth.tsx, /src/pages/customers.tsx, /src/pages/pos.tsx, /src/pages/products.tsx, /src/pages/dashboard.tsx, /src/pages/settings.tsx, /src/pages/inventory.tsx, /src/pages/orders.tsx, /src/pages/reports.tsx, /src/pages/login.tsx, /src/pages/expenses.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:48:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/login.tsx, /src/index.css[22m
+[2m5:48:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/hooks/use-auth.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m5:48:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/pages/orders.tsx, /src/components/layout/app-sidebar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:48:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/hooks/use-auth.tsx, /src/index.css[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1773467748678,"name":"Error","message":"Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.\n\nCheck the render method of `POS`.","stack":"\n\n\n\n\n\n\n\n\n"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/pos.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/dashboard.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:42 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/reports.tsx, /src/index.css[22m
+[replit-cartographer] Error processing /home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx: TypeError: Duplicate declaration "Package"
+    at Hub.buildError (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/hub.js:14:12)
+    at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:433:27)
+    at Scope.registerBinding (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:530:16)
+    at Scope.registerDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:492:14)
+    at Object.ImportDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:210:12)
+    at NodePath._call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:50:20)
+    at NodePath.call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:40:18)
+    at NodePath.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:87:31)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:96:16)
+    at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:68:17)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:117:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at NodePath.traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/index.js:120:24)
+    at Scope.crawl (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:695:10)
+    at Scope.init (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:661:12)
+    at NodePath.setScope (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:139:55)
+    at NodePath.setContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:151:12)
+    at NodePath.pushContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:208:8)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:88:30)
+    at TraversalContext.visitSingle (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:72:19)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:119:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at TransformPluginContext.handler (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.5.0/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:156:11)
+    at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:28797:14)
+    at async loadAndTransform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:22670:26)
+    at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:43 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Duplicate declaration "Package"
+[0m [90m 86 |[31m
+ [90m 87 |[31m [90m// Temporary icon import fix since Package isn't imported at top[31m
+[31m[1m>[22m[31m[90m 88 |[31m [36mimport[31m { [33mPackage[31m } [36mfrom[31m [32m"lucide-react"[31m[33m;[31m
+ [90m    |[31m          [31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m
+ [90m 89 |[31m
+ [90m 90 |[31m [36mfunction[31m [33mMetricCard[31m({ title[33m,[31m value[33m,[31m prefix [33m=[31m [32m""[31m[33m,[31m suffix [33m=[31m [32m""[31m[33m,[31m isLoading[33m,[31m icon }[33m:[31m any) {
+ [90m 91 |[31m   [36mreturn[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx[39m
+      at File.buildCodeFrameError (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:189:12)
+      at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:433:27)
+      at Scope.registerBinding (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:530:16)
+      at Scope.registerDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:492:14)
+      at Object.ImportDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:210:12)
+      at NodePath._call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:50:20)
+      at NodePath.call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:40:18)
+      at NodePath.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:87:31)
+      at TraversalContext.visitQueue (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:96:16)
+      at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:68:17)
+      at TraversalContext.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:117:19)
+      at traverseNode (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/traverse-node.js:130:17)
+      at traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/index.js:53:34)
+      at NodePath.traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/index.js:120:24)
+      at Scope.crawl (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:695:10)
+      at Scope.init (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:661:12)
+      at NodePath.setScope (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:139:55)
+      at NodePath.setContext (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:151:12)
+      at new File (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:80:8)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/normalize-file.js:96:10)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+[replit-cartographer] Error processing /home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx: TypeError: Duplicate declaration "Package"
+    at Hub.buildError (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/hub.js:14:12)
+    at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:433:27)
+    at Scope.registerBinding (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:530:16)
+    at Scope.registerDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:492:14)
+    at Object.ImportDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:210:12)
+    at NodePath._call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:50:20)
+    at NodePath.call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:40:18)
+    at NodePath.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:87:31)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:96:16)
+    at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:68:17)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:117:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at NodePath.traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/index.js:120:24)
+    at Scope.crawl (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:695:10)
+    at Scope.init (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:661:12)
+    at NodePath.setScope (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:139:55)
+    at NodePath.setContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:151:12)
+    at NodePath.pushContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:208:8)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:88:30)
+    at TraversalContext.visitSingle (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:72:19)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:119:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at TransformPluginContext.handler (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.5.0/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:156:11)
+    at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:28797:14)
+    at async loadAndTransform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:22670:26)
+    at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:43 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Duplicate declaration "Package"
+[0m [90m 86 |[31m
+ [90m 87 |[31m [90m// Temporary icon import fix since Package isn't imported at top[31m
+[31m[1m>[22m[31m[90m 88 |[31m [36mimport[31m { [33mPackage[31m } [36mfrom[31m [32m"lucide-react"[31m[33m;[31m
+ [90m    |[31m          [31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m
+ [90m 89 |[31m
+ [90m 90 |[31m [36mfunction[31m [33mMetricCard[31m({ title[33m,[31m value[33m,[31m prefix [33m=[31m [32m""[31m[33m,[31m suffix [33m=[31m [32m""[31m[33m,[31m isLoading[33m,[31m icon }[33m:[31m any) {
+ [90m 91 |[31m   [36mreturn[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx[39m
+      at File.buildCodeFrameError (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:189:12)
+      at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:433:27)
+      at Scope.registerBinding (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:530:16)
+      at Scope.registerDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:492:14)
+      at Object.ImportDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:210:12)
+      at NodePath._call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:50:20)
+      at NodePath.call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:40:18)
+      at NodePath.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:87:31)
+      at TraversalContext.visitQueue (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:96:16)
+      at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:68:17)
+      at TraversalContext.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:117:19)
+      at traverseNode (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/traverse-node.js:130:17)
+      at traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/index.js:53:34)
+      at NodePath.traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/index.js:120:24)
+      at Scope.crawl (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:695:10)
+      at Scope.init (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:661:12)
+      at NodePath.setScope (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:139:55)
+      at NodePath.setContext (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:151:12)
+      at new File (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:80:8)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/normalize-file.js:96:10)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11) [33m(x2)[39m
+[replit-cartographer] Error processing /home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx: TypeError: Duplicate declaration "Package"
+    at Hub.buildError (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/hub.js:14:12)
+    at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:433:27)
+    at Scope.registerBinding (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:530:16)
+    at Scope.registerDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:492:14)
+    at Object.ImportDeclaration (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:210:12)
+    at NodePath._call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:50:20)
+    at NodePath.call (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:40:18)
+    at NodePath.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:87:31)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:96:16)
+    at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:68:17)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:117:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at NodePath.traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/index.js:120:24)
+    at Scope.crawl (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:695:10)
+    at Scope.init (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/scope/index.js:661:12)
+    at NodePath.setScope (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:139:55)
+    at NodePath.setContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:151:12)
+    at NodePath.pushContext (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/path/context.js:208:8)
+    at TraversalContext.visitQueue (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:88:30)
+    at TraversalContext.visitSingle (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:72:19)
+    at TraversalContext.visit (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/context.js:119:19)
+    at traverseNode (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/traverse-node.js:130:17)
+    at traverse (/home/runner/workspace/node_modules/[4m.pnpm[24m/@babel+traverse@7.29.0/node_modules/[4m@babel/traverse[24m/lib/index.js:53:34)
+    at TransformPluginContext.handler (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/@replit+vite-plugin-cartographer@0.5.0/node_modules/[4m@replit/vite-plugin-cartographer[24m/dist/index.mjs:156:11)
+    at async EnvironmentPluginContainer.transform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:28797:14)
+    at async loadAndTransform (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:22670:26)
+    at async viteTransformMiddleware (file:///home/runner/workspace/node_modules/[4m.pnpm[24m/vite@7.3.1_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/[4mvite[24m/dist/node/chunks/config.js:24542:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:44 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Duplicate declaration "Package"
+[0m [90m 86 |[31m
+ [90m 87 |[31m [90m// Temporary icon import fix since Package isn't imported at top[31m
+[31m[1m>[22m[31m[90m 88 |[31m [36mimport[31m { [33mPackage[31m } [36mfrom[31m [32m"lucide-react"[31m[33m;[31m
+ [90m    |[31m          [31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m[31m[1m^[22m[31m
+ [90m 89 |[31m
+ [90m 90 |[31m [36mfunction[31m [33mMetricCard[31m({ title[33m,[31m value[33m,[31m prefix [33m=[31m [32m""[31m[33m,[31m suffix [33m=[31m [32m""[31m[33m,[31m isLoading[33m,[31m icon }[33m:[31m any) {
+ [90m 91 |[31m   [36mreturn[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/runner/workspace/artifacts/sales-app/src/pages/reports.tsx[39m
+      at File.buildCodeFrameError (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:189:12)
+      at Scope.checkBlockScopedCollisions (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:433:27)
+      at Scope.registerBinding (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:530:16)
+      at Scope.registerDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:492:14)
+      at Object.ImportDeclaration (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:210:12)
+      at NodePath._call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:50:20)
+      at NodePath.call (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:40:18)
+      at NodePath.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:87:31)
+      at TraversalContext.visitQueue (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:96:16)
+      at TraversalContext.visitMultiple (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:68:17)
+      at TraversalContext.visit (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/context.js:117:19)
+      at traverseNode (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/traverse-node.js:130:17)
+      at traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/index.js:53:34)
+      at NodePath.traverse (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/index.js:120:24)
+      at Scope.crawl (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:695:10)
+      at Scope.init (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/scope/index.js:661:12)
+      at NodePath.setScope (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:139:55)
+      at NodePath.setContext (/home/runner/workspace/node_modules/.pnpm/@babel+traverse@7.29.0/node_modules/@babel/traverse/lib/path/context.js:151:12)
+      at new File (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/file/file.js:80:8)
+      at normalizeFile (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/normalize-file.js:96:10)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/runner/workspace/node_modules/.pnpm/@babel+core@7.29.0/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/runner/workspace/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:57:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/reports.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:58:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/app-layout.tsx, /src/index.css[22m
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31m@workspace/sales-app@0.0.0 dev: `vite --config vite.config.ts --host 0.0.0.0`[39m
+[31mCommand failed with signal "SIGTERM"[39m

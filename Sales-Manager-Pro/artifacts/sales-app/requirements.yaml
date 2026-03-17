@@ -1,0 +1,15 @@
+packages:
+  "framer-motion": "For smooth page transitions and micro-interactions"
+  "recharts": "For beautiful analytics and dashboard charts"
+  "date-fns": "For human-readable date formatting across tables and reports"
+  "@hookform/resolvers": "For Zod schema validation in forms"
+
+images:
+  - path: "artifacts/sales-app/public/images/login-bg.png"
+    description: "Abstract luxury enterprise software background, dark slate and deep indigo mesh gradient with subtle geometric wireframe patterns"
+    aspect_ratio: "16:9"
+
+notes:
+  - Relying on @workspace/api-client-react for generated TanStack Query hooks.
+  - Using wouter for routing.
+  - App is designed mobile-first but optimized for desktop POS tablet/monitor usage.
