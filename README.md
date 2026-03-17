@@ -43,3 +43,21 @@ Create a `.env` file in the root directory:
 ```env
 DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DB_NAME
 PORT=3000
+Setup
+pnpm install
+🗄️ Database Setup (Drizzle)
+pnpm -C lib/db push
+▶️ Run in Development
+1️⃣ Start API Server
+pnpm -C artifacts/api-server dev
+2️⃣ Start Frontend
+pnpm -C artifacts/sales-app dev
+
+Frontend runs on Vite dev server
+
+API server runs on PORT (default: 3000)
+
+📦 Build
+pnpm run build
+🧪 Type Checking
+pnpm run typecheck
