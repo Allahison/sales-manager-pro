@@ -74,3 +74,14 @@ Tables: `users`, `products`, `customers`, `orders`, `order_items`, `expenses`, `
 - `pnpm --filter @workspace/sales-app run dev`— Frontend (Vite)
 
 ## Commands
+
+## 🚀 Deployment
+
+This project is deployed and live at:
+
+🔗 **Live Demo:** sales-manager-pro-henna.vercel.app
+
+### 📦 Deployment Platform
+- Vercel
+- Render
+
