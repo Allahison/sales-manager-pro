@@ -70,3 +70,7 @@ Tables: `users`, `products`, `customers`, `orders`, `order_items`, `expenses`, `
 - `pnpm --filter @workspace/db run push` — Push DB schema
 - `pnpm --filter @workspace/scripts run seed` — Seed database
 - `pnpm --filter @workspace/api-spec run codegen` — Regenerate API client
+- `pnpm --filter @workspace/api-server run dev`— Backend (API server)
+- `pnpm --filter @workspace/sales-app run dev`— Frontend (Vite)
+
+## Commands
