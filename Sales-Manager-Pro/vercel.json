@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://sales-manager-pro-2.onrender.com/api/$1"
+      "destination": "https://sales-manager-pro-3.onrender.com/api/$1"
     }
   ]
 }
