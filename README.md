@@ -77,9 +77,8 @@ Tables: `users`, `products`, `customers`, `orders`, `order_items`, `expenses`, `
 
 ## 🚀 Deployment
 
-This project is deployed and live at:
+🔗 **Live Demo:** [Click Here to View Project](https://sales-manager-pro-henna.vercel.app)
 
-🔗 **Live Demo:** sales-manager-pro-henna.vercel.app
 
 ### 📦 Deployment Platform
 - Vercel
