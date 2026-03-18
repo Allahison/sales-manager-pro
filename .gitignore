@@ -12,6 +12,9 @@ build/
 logs
 *.log
 
+# TypeScript build info
+*.tsbuildinfo
+
 # OS files
 .DS_Store
 Thumbs.db

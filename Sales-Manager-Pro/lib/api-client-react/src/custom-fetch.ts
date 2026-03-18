@@ -31,6 +31,31 @@ function resolveUrl(input: RequestInfo | URL): string {
   return input.url;
 }
 
+function getApiBaseUrl(): string | undefined {
+  // Vite injects `import.meta.env` at build time (browser only).
+  // Keep it optional so this library also works in non-Vite runtimes.
+  try {
+    const value = (import.meta as unknown as { env?: Record<string, unknown> }).env?.[
+      "VITE_API_BASE_URL"
+    ];
+    return typeof value === "string" && value.trim() ? value.trim() : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function withApiBase(url: string): string {
+  // Only rewrite relative URLs like "/api/healthz" (what our generated client returns).
+  if (!url.startsWith("/")) return url;
+
+  const base = getApiBaseUrl();
+  if (!base) return url;
+
+  // Ensure base ends with "/" so URL() resolves correctly.
+  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  return new URL(url.replace(/^\//, ""), normalizedBase).toString();
+}
+
 function mergeHeaders(...sources: Array<HeadersInit | undefined>): Headers {
   const headers = new Headers();
 
@@ -305,9 +330,10 @@ export async function customFetch<T = unknown>(
     headers.set("accept", DEFAULT_JSON_ACCEPT);
   }
 
-  const requestInfo = { method, url: resolveUrl(input) };
+  const url = withApiBase(resolveUrl(input));
+  const requestInfo = { method, url };
 
-  const response = await fetch(input, { ...init, method, headers });
+  const response = await fetch(url, { ...init, method, headers });
 
   if (!response.ok) {
     const errorData = await parseErrorBody(response, method);
